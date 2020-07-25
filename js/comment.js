@@ -1,0 +1,2 @@
+function header(){
+var html = "";
