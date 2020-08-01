@@ -11,7 +11,6 @@
 						canavas : document.querySelector('myCanvas')
 					)};
 					renderer.setSize(960,540);
-				}
 					
 					const scene = new THREE.Scene();
 					const camera = new THREE.PerspectiveCamera(45,960/540);
@@ -27,6 +26,7 @@
 						box.rotation.y += 0.01;
 						renderer.render(scene,camera);
 					}
+				
 				</script>
 						
 	</head>
